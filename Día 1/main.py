@@ -69,7 +69,13 @@ b = int(input("ingrese numero 2: "))
 
 suma(a,b)
 
+
+
 #---- Sin Parametro Con Retorno ----
+
+def multiplicacion():
+       x = 9*6
+       return (x)
 
 
 
