@@ -47,16 +47,35 @@ else:
 
 #---- Con Parametro Con Retorno ----
        
-       def promedio (x,y):
-              sumaTotal = x
-              cantidad = y 
-              Total = sumaTotal/cantidad 
-              return"su promedio es: ", float (( Total ))
+def promedio (x,y):
+       sumaTotal = x
+       cantidad = y 
+       Total = sumaTotal/cantidad 
+       return"su promedio es: ", float (( Total ))
        
-       sumaTotal = int(input( "Ingrese la suma total: "))
-       cantidad = int (input("Ingrese la cantidad de digitos: "))
+sumaTotal = int(input( "Ingrese la suma total: "))
+cantidad = int (input("Ingrese la cantidad de digitos: "))
 
-       print(promedio(int(sumaTotal),int(cantidad)))
+print(promedio(int(sumaTotal),int(cantidad)))
+
+#---- Con Parametro Sin Retorno ----
+       
+def suma(a,b):
+       sumaFinal = a+b
+       print(sumaFinal)
+
+a = int(input("ingrese numero 1: "))
+b = int(input("ingrese numero 2: "))
+
+suma(a,b)
+
+#---- Sin Parametro Con Retorno ----
+
+
+
+
+
+
 
 
 ## Desarrollado por DANNA ALEJANDRA FLOREZ GOMEZ - 1095792553
