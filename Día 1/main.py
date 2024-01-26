@@ -41,4 +41,22 @@ if texto1 == "campus":
        print ("Soy campus")
 else:
        print ("No soy campus")
+
+
+#---- Funciones ----
+
+#---- Con Parametro Con Retorno ----
+       
+       def promedio (x,y):
+              sumaTotal = x
+              cantidad = y 
+              Total = sumaTotal/cantidad 
+              return"su promedio es: ", float (( Total ))
+       
+       sumaTotal = int(input( "Ingrese la suma total: "))
+       cantidad = int (input("Ingrese la cantidad de digitos: "))
+
+       print(promedio(int(sumaTotal),int(cantidad)))
+
+
 ## Desarrollado por DANNA ALEJANDRA FLOREZ GOMEZ - 1095792553
