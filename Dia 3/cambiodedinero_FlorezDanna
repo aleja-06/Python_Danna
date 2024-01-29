@@ -1,0 +1,33 @@
+def totalCount(coin):
+    return  Oro.append(coin)
+
+
+coin1 = 10
+coin2 = 5
+coin3 = 1
+
+x = int(input("Digite un número: "))
+
+Oro = []
+
+while x >= 10:
+    coin = coin1
+    print(totalCount(coin))
+    x = x - 10
+    y = 0
+    y = y + 1
+while x >= 5:
+    coin = coin2
+    print(totalCount(coin))
+    x = x - 5
+    y = 0
+    y = y + 1
+while x >= 1:
+    coin = coin3
+    print(totalCount(coin))
+    x = x - 1
+    y = 0
+    y = y + 1
+    
+
+print(Oro)
