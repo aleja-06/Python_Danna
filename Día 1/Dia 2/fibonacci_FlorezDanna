@@ -1,0 +1,36 @@
+def fibonacci_sequence(n):
+    sequence = [0, 1]
+    for i in range(2, n):
+        next_term = sequence[-1] + sequence[-2]
+        sequence.append(next_term)
+    return sequence
+
+def main():
+    print("Bienvenido al generador de la Secuencia de Fibonacci.")
+    
+    while True:
+        try:
+            n = int(input("Ingrese un valor entero 'n' para generar la secuencia (ingrese 0 para salir): "))
+            
+            if n == 0:
+                print("¡Hasta luego!")
+                break
+            elif n < 0:
+                print("Por favor, ingrese un valor entero no negativo.")
+                continue
+            
+            result_sequence = fibonacci_sequence(n)
+            
+            print(f"Secuencia de Fibonacci hasta el término {n}: {result_sequence}")
+        except ValueError:
+            print("Por favor, ingrese un valor entero válido.")
+        except Exception as e:
+            print(f"Ocurrió un error inesperado: {e}")
+        
+        choice = input("¿Desea generar otra secuencia? (Sí/No): ").lower()
+        if choice != 'si' and choice != 's':
+            print("¡Hasta luego!")
+            break
+
+if __name__ == "__main__":
+    main()

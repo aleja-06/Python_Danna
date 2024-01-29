@@ -74,8 +74,8 @@ suma(a,b)
 #---- Sin Parametro Con Retorno ----
 
 def multiplicacion():
-       x = 9*6
-       return (x)
+       
+       return i
 
 
 
