@@ -1,0 +1,16 @@
+{
+    "clientes": [
+        {
+            "nombre": "Andrea",
+            "edad": 22,
+            "altura": 1.6,
+            "importe": 2.55
+        },
+        {
+            "nombre": "andrea",
+            "edad": 20,
+            "altura": 1.72,
+            "importe": 2.55
+        }
+    ]
+}
